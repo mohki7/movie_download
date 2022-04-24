@@ -8,9 +8,5 @@ URL_movie = st.text_input("ここに保存したい動画のURLを入力して�
 
 ydl_opts = {}
 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-    data = ydl.download([URL_movie])
+    ydl.download([URL_movie])
     
-st.download_button(
-        label="ダウンロード", 
-        data = data
-        )
