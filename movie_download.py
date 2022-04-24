@@ -20,4 +20,6 @@ if act:
         data = ydl.download([URL_movie])
 
 
+st.write("contact:okmototoba@gmail.com")
+
 #st.download_button(label = "ダウンロード", data = data)
