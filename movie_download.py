@@ -19,7 +19,6 @@ if act:
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         data = ydl.download([URL_movie])
 
-
 st.write("contact:okmototoba@gmail.com")
 
 #st.download_button(label = "ダウンロード", data = data)
